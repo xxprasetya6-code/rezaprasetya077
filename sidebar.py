@@ -26,3 +26,5 @@ class SidebarView(tk.Frame):
                 command=lambda name=item: self.on_category_switch(name)
             )
             btn.pack(fill="x", padx=10, pady=2)
+
+            # Mark important feature
