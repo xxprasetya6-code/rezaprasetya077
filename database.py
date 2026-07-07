@@ -62,3 +62,5 @@ class DatabaseManager:
             conn.commit()
             cursor.execute("SELECT is_important FROM tasks WHERE id = ?", (task_id,))
             return cursor.fetchone()[0]
+        
+        # Task category feature

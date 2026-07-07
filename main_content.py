@@ -89,3 +89,5 @@ class MainContentView(tk.Frame):
             self.entry.delete(0, tk.END)
             self.date_entry.delete(0, tk.END)
             self.date_entry.insert(0, "Add due date")
+
+            # Task category feature
